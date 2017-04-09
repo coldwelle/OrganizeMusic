@@ -10,13 +10,11 @@ namespace OrganizeMusic
     {
         public string inputDirectory { get; set; }
         public string outputDirectory { get; set; }
-        public bool multithreading { get; set; }
 
-        public OrganizeMusicController(string input, string output, bool threading)
+        public OrganizeMusicController(string input, string output)
         {
             this.inputDirectory = input;
             this.outputDirectory = output;
-            this.multithreading = threading;
 
             Validate.validateInputDirectory(this.inputDirectory);
             Validate.validateOutputDirectory(this.outputDirectory);

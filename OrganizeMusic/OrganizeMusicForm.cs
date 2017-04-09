@@ -60,7 +60,7 @@ namespace OrganizeMusic
 
         private void runButton_Click(object sender, EventArgs e)
         {
-            new OrganizeMusicController(inputDirectoryTextBox.Text, outputDirectoryTextBox.Text, multithreadingCheckbox.Checked).sortMusic();
+            new OrganizeMusicController(inputDirectoryTextBox.Text, outputDirectoryTextBox.Text).sortMusic();
 
             runButton.Enabled = false;
         }

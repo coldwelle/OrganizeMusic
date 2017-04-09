@@ -35,7 +35,6 @@
             this.outputDirectoryTextBox = new System.Windows.Forms.TextBox();
             this.outputDirectoryButton = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.multithreadingCheckbox = new System.Windows.Forms.CheckBox();
             this.runButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -98,16 +97,6 @@
             this.progressBar1.Size = new System.Drawing.Size(260, 23);
             this.progressBar1.TabIndex = 4;
             // 
-            // multithreadingCheckbox
-            // 
-            this.multithreadingCheckbox.AutoSize = true;
-            this.multithreadingCheckbox.Location = new System.Drawing.Point(13, 123);
-            this.multithreadingCheckbox.Name = "multithreadingCheckbox";
-            this.multithreadingCheckbox.Size = new System.Drawing.Size(135, 17);
-            this.multithreadingCheckbox.TabIndex = 5;
-            this.multithreadingCheckbox.Text = "Enable Multi-Threading";
-            this.multithreadingCheckbox.UseVisualStyleBackColor = true;
-            // 
             // runButton
             // 
             this.runButton.Location = new System.Drawing.Point(12, 197);
@@ -124,7 +113,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.runButton);
-            this.Controls.Add(this.multithreadingCheckbox);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.outputDirectoryButton);
             this.Controls.Add(this.outputDirectoryTextBox);
@@ -147,7 +135,6 @@
         private System.Windows.Forms.TextBox outputDirectoryTextBox;
         private System.Windows.Forms.Button outputDirectoryButton;
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.CheckBox multithreadingCheckbox;
         private System.Windows.Forms.Button runButton;
     }
 }
